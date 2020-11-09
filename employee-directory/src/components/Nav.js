@@ -1,11 +1,15 @@
 import SearchBox from "./SearchBox";
-import "../stlyes/Nav.css";
+import "../styles/Nav.css"
 
 function Nav({ handleSearchChange }) {
   return (
     <nav className="navbar navbar-expand navbar-light bg-light">
       <div className="navbar-collapse row" id="navbarNav">
-        <SearchBox handleSearchChange={handleSearchChange} />
+        <div className="navbar-form">
+          <div className="form-group">
+            <SearchBox handleSearchChange={handleSearchChange} />
+          </div>
+        </div>
       </div>
     </nav>
   );
