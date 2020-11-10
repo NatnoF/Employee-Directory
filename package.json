@@ -2,7 +2,7 @@
   "name": "employee-directory",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://natnof.github.io",
+  "homepage": "https://NatnoF.github.io/Employee-Directory",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
@@ -17,7 +17,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-scripts start",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
